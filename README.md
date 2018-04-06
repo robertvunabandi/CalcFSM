@@ -27,3 +27,8 @@ calc.getDisplayedNumber();
 ```
 
 That's it! 
+
+
+# LICENSE
+
+[LICENSE](LICENSE)
