@@ -1,0 +1,87 @@
+@media only screen and (max-width: 400px) {
+  #calculator {
+    width: 95%;
+  }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 600px){
+  #calculator {
+    width: 75%;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 800px){
+  #calculator {
+    width: 55%;
+  }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1000px){
+  #calculator {
+    width: 35%;
+  }
+}
+
+@media only screen and (min-width: 1000px){
+  #calculator {
+    width: 30%;
+  }
+}
+
+* {
+  font-family: 'Overpass Mono', monospace;
+  transition: all 150ms;
+}
+#calculator {
+  margin: 0 auto;
+  padding: 0.35rem;
+  border: 2px solid black;
+}
+#display {
+  padding: 0.5rem;
+  border: 2px solid black;
+  background-color: rgba(96,159,202,0.2);
+}
+#d-curr-val {}
+#c-inputs {
+}
+#btn-clear {}
+#btn-seven {}
+#btn-eight {}
+#btn-nine {}
+#btn-div {}
+#btn-four {}
+#btn-five {}
+#btn-six {}
+#btn-mul {}
+#btn-one {}
+#btn-two {}
+#btn-three {}
+#btn-minus {}
+#btn-zero {}
+#btn-dot {}
+#btn-eq {}
+#btn-plus {}
+
+
+.input-row {
+  padding: 0.5rem;
+  margin: 0.5rem auto;
+  text-align: center;
+}
+.input-row-init {
+  text-align: center;
+  margin: 0 auto;
+}
+.input-btn {
+  padding: 0.5rem 0.8rem;
+  border: 2px solid black;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  min-width: 5%;
+}
+
+.input-btn-filler {
+  border: 2px solid rgba(0,0,0,0) !important;
+  opacity: 0 !important;
+}
