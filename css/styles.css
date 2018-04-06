@@ -80,8 +80,25 @@
   margin-right: 0.5rem;
   min-width: 5%;
 }
+.input-btn:hover {
+  cursor: pointer;
+  background-color: rgba(0,0,0,0.1);
+}
+
+.input-btn:active {
+  background-color: rgba(96,159,202,0.7);
+}
 
 .input-btn-filler {
   border: 2px solid rgba(0,0,0,0) !important;
-  opacity: 0 !important;
+  opacity: 1 !important;
+  background-color: black;
+}
+
+.input-btn-filler:hover {
+  cursor: default !important;
+}
+
+.input-btn-filler:active {
+  background-color: rgba(0,0,0,0.2);
 }
