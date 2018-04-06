@@ -147,6 +147,7 @@ class Calc {
     switch (this.__STATE) {
       case Calc.STATE.TRAILING:
         this.__FIRST = resultFOp1SOp2T;
+        this.__SECOND = resultSOp2T;
         break;
       case Calc.STATE.TRANSITION_FROM_TRAILING:
         this.__FIRST = resultFOp1SOp2T;
