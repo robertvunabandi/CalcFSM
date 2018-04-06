@@ -150,6 +150,7 @@ class Calc {
         break;
       case Calc.STATE.TRANSITION_FROM_TRAILING:
         this.__FIRST = resultFOp1SOp2T;
+        this.__SECOND = resultSOp2T;
         break;
       default:
         this.__FIRST = resultFOp1S;
@@ -373,4 +374,3 @@ class Calc {
     return 9139;
   }
 }
-
