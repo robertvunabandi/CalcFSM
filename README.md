@@ -31,4 +31,4 @@ That's it!
 
 # LICENSE
 
-[LICENSE](LICENSE)
+See [LICENSE](LICENSE).
