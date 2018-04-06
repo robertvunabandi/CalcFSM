@@ -10,7 +10,7 @@ Use is as follow:
 
 Give one input to the calculator with
 
-```
+```javascript
 calc.receiveInput(input);
 ```
 
@@ -22,7 +22,7 @@ An input can be:
 
 To get the current display on the calculator, use:
 
-```
+```javascript
 calc.getDisplayedNumber();
 ```
 
