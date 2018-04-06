@@ -89,7 +89,6 @@ function handleCalculatorInput(input) {
 }
 
 function highlightKey(input_calc_value) {
-  console.log(input_calc_value);
   let id = variables.values_to_button_id_map[input_calc_value];
   let button = document.getElementById(id);
   button.style.backgroundColor = "rgba(96,159,202,0.7)";
