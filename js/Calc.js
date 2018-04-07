@@ -109,20 +109,20 @@ class Calc {
         this.__STATE = Calc.STATE.TRANSITION_FROM_INITIAL;
         break;
       case Calc.STATE.TRANSITION_FROM_INITIAL:
-        this.__FIRST = Calc.getResultingDisplay(this.__FIRST, input);
+        this.__FIRST = Calc._getResultingDisplay(this.__FIRST, input);
         break;
       case Calc.STATE.TRANSITION_FROM_TRANSITION:
-        this.__SECOND = Calc.getResultingDisplay(this.__SECOND, input);
+        this.__SECOND = Calc._getResultingDisplay(this.__SECOND, input);
         break;
       case Calc.STATE.TRANSITION_FROM_TRAILING:
-        this.__TRAILING = Calc.getResultingDisplay(this.__TRAILING, input);
+        this.__TRAILING = Calc._getResultingDisplay(this.__TRAILING, input);
         break;
       default:
         throw new Error("Invalid State! BAD.");
     }
   }
 
-  static getResultingDisplay(display, input) {
+  static _getResultingDisplay(display, input) {
     let resulting_display = "";
     if (Calc._isDecimalPointInput(input)) {
       if (!Calc._displayContainsDecimalPoint(display)) {
